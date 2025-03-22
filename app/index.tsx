@@ -15,6 +15,7 @@ export default function Index() {
       <Link href="/settings">Navegar a Settings</Link>
       <Link href="/modal">Navegar a Modal</Link>
       <Button title="Abrir Drawer" onPress={toggleDrawer} />
+      <Link href="/_sitemap">Sitemap</Link>
     </View>
   );
 }
