@@ -4,7 +4,7 @@ import { View, StyleSheet, Button } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Link href="/">Ir al Root navigator Index</Link>
+      <Link href="/home">Ir al Root navigator Home</Link>
       <Link href="/settings/usuario">Ir al Settings Usuario</Link>
       <Link href="/settings/10">Pasamos el ID 10</Link>
       <Link

@@ -6,13 +6,13 @@ export default function About() {
     if (router.canGoBack()) {
       router.back();
     } else {
-      router.navigate("/");
+      router.navigate("/home");
     }
   };
 
   return (
     <View style={styles.container}>
-      <Link href="/">Navegar a Home</Link>
+      <Link href="/home">Navegar a Home</Link>
       <Link href="/profile">Navegar a Profile</Link>
       <Button title="Volver a pantalla anterior" onPress={volver} />
     </View>

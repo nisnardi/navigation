@@ -13,7 +13,7 @@ export default function Usuario() {
 
   return (
     <View style={styles.container}>
-      <Link href="/">Ir al Root navigator Index</Link>
+      <Link href="/home">Ir al Root navigator home</Link>
       <Link href="./index">Ir al Settings Index</Link>
       <Button title="Ver historial / segmentos" onPress={verHistorial} />
     </View>

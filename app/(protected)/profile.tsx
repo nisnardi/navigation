@@ -7,12 +7,12 @@ export default function Profile() {
 
   const navegarAHome = () => {
     console.log(routes);
-    router.navigate("/");
+    router.navigate("/home");
   };
 
   return (
     <View style={styles.container}>
-      <Link href="/">Navegar a Home</Link>
+      <Link href="/home">Navegar a Home</Link>
       <Button
         title="Navegar a Home de manera imperativa (usando router)"
         onPress={navegarAHome}
